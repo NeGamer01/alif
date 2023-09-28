@@ -675,7 +675,7 @@ reboot
 run_pensi() {
 run_eula
 run_tools
-run_ei
+#run_ei
 run_file
 run_funny
 run_ayato
