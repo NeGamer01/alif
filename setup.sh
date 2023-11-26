@@ -176,7 +176,7 @@ run_ei() {
   sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
   
   # Link izin IP VPS
-  url_izin='https://kytvpn.xcodehoster.com/izin"'
+  url_izin='https://raw.githubusercontent.com/NeGamer01/izinvps/ipuk/ip"'
 
   # Mendapatkan IP VPS saat ini
   ip_vps=$(curl -s ifconfig.me)
